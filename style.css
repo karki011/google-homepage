@@ -1,51 +1,87 @@
-*{
+* {
     margin: 0 auto;
 }
-.wrapper{
+
+.wrapper {
     margin: 0 auto;
     width: 97%
 }
-.topNav{
+
+.topNav {
     width: 100%;
     float: left;
 }
-ul{
+
+ul {
     float: right;
 }
-ul > li{
+
+ul>li {
     list-style-type: none;
     line-height: 29px;
 }
 
-li{
+li {
     float: left;
     padding: 10px;
 }
-.topNav ul li a img{
+
+.topNav ul li a img {
     height: 2em;
 }
 
-.topNav ul li a{
+.topNav ul li a {
     color: black;
     text-decoration: none;
+    line-height: 50px;
 }
-.topNav ul li a:hover{
+
+.homebar {
+    line-height: 4.5em;
+}
+
+.topNav ul li a:hover {
     text-decoration: underline;
     color: green;
 }
-.mainContent{
+
+.profilelogo {
+    background-image: url('./images/al.jpg');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.mainContent {
     padding-top: 200px;
 }
-.mainContent .googleImage{
+
+.mainContent .googleImage {
     width: 31%;
 }
-.mainContent .googlehome{
+
+.mainContent .googlehome {
     text-align: center;
 }
-.searchbox{padding: 25px;}
-.searchbox .googleform{text-align: center;}
-.searchbox .googleform input{padding: 14px 23em;/* text-align: center; */border: 1px solid #ccc;box-shadow: 0 2px #eee;}
-.voiceicon{
+
+.searchbox {
+    padding: 25px;
+}
+
+.searchbox .googleform {
+    text-align: center;
+}
+
+.searchbox .googleform input {
+    padding: 14px 23em;
+    /* text-align: center; */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px #eee;
+}
+
+.voiceicon {
     background-image: url('./images/mic.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -53,17 +89,21 @@ li{
     background-position-x: 97%;
     background-position-y: center;
 }
-input[type="text"]{
+
+input[type="text"] {
     outline: none;
 }
-input[type="text"]:hover{
+
+input[type="text"]:hover {
     box-shadow: 0 4px 0 #ccc;
 }
-.searchbutton{
+
+.searchbutton {
     text-align: center;
-padding-top: 20px;
+    padding-top: 20px;
 }
-.searchbutton button{
+
+.searchbutton button {
     padding: 14px 22px;
     border-radius: 5px;
     background-color: #F4F4F4;
@@ -72,23 +112,28 @@ padding-top: 20px;
     font-weight: bold;
     color: #757575;
 }
-footer{
+
+footer {
     width: 100%;
     background: #F2F2F2;
     /*float: left;*/
-    position: fixed;;
+    position: fixed;
+    ;
     bottom: 0;
-
 }
-footer ul.footerleft{
+
+footer ul.footerleft {
     float: left;
 }
-footer ul.footerleft li a, .footerright li a{
+
+footer ul.footerleft li a, .footerright li a {
     text-decoration: none;
 }
-.footerright{
+
+.footerright {
     float: right;
 }
-footer ul.footerleft li a:hover, .footerright li a:hover{
+
+footer ul.footerleft li a:hover, .footerright li a:hover {
     text-decoration: underline;
 }
